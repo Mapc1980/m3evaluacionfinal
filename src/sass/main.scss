@@ -1,0 +1,10 @@
+@import "abstracts/variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "abstracts/mixins";
+
+@import "components/navbar";
+@import "components/footer";
+@import "components/cards";
+@import "components/form";
+@import "components/comments";
+@import "components/about";

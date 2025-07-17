@@ -1,0 +1,11 @@
+.card {
+  @include card-style(#ffffff, 0.75rem);
+  transition: transform 0.3s ease;
+  background-color: $secondary;
+  color: $primary;
+
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+}

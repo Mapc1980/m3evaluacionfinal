@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto Final</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="../dist/css/styles.css" />
+</head>
+
+<body>
+
+  <header class="text-white text-center py-3 navbar px-5">
+    <h1 class="display-4"><b>TechDesign Solutions</b></h1>
+    <p class="lead"><b>Soluciones en Comercio Electrónico</b></p>
+  </header>
+
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-white" href="#quienes-somos">Quiénes Somos</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#comentarios">Comentarios</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="./contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container my-5" data-aos="fade-up">
+    <div class="row">
+
+      <div class="col-md-4 mb-4">
+        <div class="card card-hover h-100">
+          <img src="./img/producto1.webp" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Producto 1</h5>
+            <p class="card-text">Descripción del producto 1.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 mb-4">
+        <div class="card card-hover h-100">
+          <img src="./img/producto2.webp" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Producto 2</h5>
+            <p class="card-text">Descripción del producto 2.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 mb-4">
+        <div class="card card-hover h-100">
+          <img src="./img/producto3.webp" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Producto 3</h5>
+            <p class="card-text">Descripción del producto 3.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 mb-4">
+        <div class="card card-hover h-100">
+          <img src="./img/producto4.webp" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Producto 4</h5>
+            <p class="card-text">Descripción del producto 4.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 mb-4">
+        <div class="card card-hover h-100">
+          <img src="./img/producto5.webp" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Producto 5</h5>
+            <p class="card-text">Descripción del producto 5.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 mb-4">
+        <div class="card card-hover h-100">
+          <img src="./img/producto6.webp" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Producto 6</h5>
+            <p class="card-text">Descripción del producto 6.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="quienes-somos" class="py-5" data-aos="fade-right">
+    <div class="container text-center">
+      <h2 class="mb-4">Quiénes Somos</h2>
+      <p class="lead">Transformamos experiencias digitales.</p>
+    </div>
+  </section>
+
+  <section id="comentarios" class="container py-5" data-aos="zoom-in">
+    <h2 class="mb-4 text-center">Comentarios de Clientes</h2>
+
+    <blockquote class="testimonial">
+      <p>"Excelente trabajo, entregado a tiempo y con alta calidad."</p>
+      <footer>— Juan Pérez</footer>
+    </blockquote>
+
+    <blockquote class="testimonial">
+      <p>"Nos ayudaron a mejorar nuestras ventas en un 40% en solo 3 meses."</p>
+      <footer>— María González</footer>
+    </blockquote>
+
+    <blockquote class="testimonial">
+      <p>"Altamente recomendados por su creatividad y profesionalismo."</p>
+      <footer>— Andrés Riquelme</footer>
+    </blockquote>
+  </section>
+  <section class="py-5 bg-primary text-white text-center">
+    <div class="container">
+      <h2 class="mb-3">¿Listo para dar el siguiente paso?</h2>
+      <p class="mb-4">Contáctanos y descubre cómo podemos ayudarte a crecer tu negocio.</p>
+      <a href="contacto.html" class="btn btn-light btn-lg fw-bold">Ir al Formulario de Contacto</a>
+    </div>
+  </section>
+
+<!-- **Esto esta comentado por si lo quiero volver a usar** 
+  <section id="contacto" class="bg-light py-5" data-aos="fade-up">
+    <div class="container">
+      <h2 class="text-center mb-4">Contacto</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+          <form class="needs-validation" id="contactForm" novalidate>
+            <div class="mb-3">
+              <label class="form-label">Nombre</label>
+              <input type="text" class="form-control" placeholder="Tu nombre" required>
+              <div class="invalid-feedback">Por favor, ingresa tu nombre.</div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Correo</label>
+              <input type="email" class="form-control" placeholder="Tu correo" required>
+              <div class="invalid-feedback">Ingresa un correo válido.</div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Mensaje</label>
+              <textarea class="form-control" rows="4" placeholder="Escribe tu mensaje..." required></textarea>
+              <div class="invalid-feedback">El mensaje es obligatorio.</div>
+            </div>
+            <button type="submit" class="btn btn-primary text-white">Enviar</button>
+          </form>
+
+          <div id="form-success" class="alert alert-success mt-4 d-none" role="alert">
+            ¡Gracias! Tu mensaje ha sido enviado con éxito.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+  <footer class="text-white text-center py-4 footer">
+    <p class="mb-0">&copy; 2025 TechDesign Solutions</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      AOS.init();
+    });
+  </script>
+  <script src="js/script.js" defer></script>
+</body>
+
+</html>
